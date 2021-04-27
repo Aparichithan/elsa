@@ -81,16 +81,16 @@ PM_START_TEXT = """
 buttons = [
     [
         InlineKeyboardButton(
-            text="Add To Your Group 👥", url="t.me/Innexiabot?startgroup=true"),
+            text="ADD TO YOUR GROUP 👥", url="t.me/Innexiabot?startgroup=true"),
     ],
     [
-        InlineKeyboardButton(text="About 📋", callback_data="innexiabot_"),
+        InlineKeyboardButton(text="ABOUT 📋", callback_data="innexiabot_"),
         InlineKeyboardButton(
-            text="OWNER", url=f"https://t.me/stranger_of_telegram{SUPPORT_CHAT}"
+            text="OWNER", url=f"https://t.me/stranger_of_telegram"
         ),
     ],
     [
-        InlineKeyboardButton(text="Help ⚙️", callback_data="help_back"),
+        InlineKeyboardButton(text="HELP ⚙️", callback_data="help_back"),
     ],
 ]
 
@@ -356,8 +356,8 @@ def innexiabot_about_callback(update, context):
                  \n❍ I can warn users until they reach max warns, with each predefined actions such as ban, mute, kick, etc.
                  \n❍ I have a note keeping system, blacklists, and even predetermined replies on certain keywords.
                  \n❍ I check for admins' permissions before executing any command and more stuffs
-                 \n\n_innexiabot's licensed under the GNU General Public License v3.0_
-                 \nHere is the [💞Repository](https://t.me/TG_STRANGE_R).
+                 \n\n_ELSA's licensed under the GNU General Public License v3.0_
+                 \nHere is the [💞OWNER](https://t.me/TG_STRANGE_R).
                  \n\nIf you have any question about innexiabot, let us know at .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
