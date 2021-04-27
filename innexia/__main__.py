@@ -358,7 +358,7 @@ def innexiabot_about_callback(update, context):
                  \n❍ I check for admins' permissions before executing any command and more stuffs
                  \n\n_ELSA's licensed under the GNU General Public License v3.0_
                  \nHere is the [💞OWNER](https://t.me/TG_STRANGE_R).
-                 \n\nIf you have any question about innexiabot, let us know at .""",
+                 \n\nIf you have any question about ELSA, let us know at .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
