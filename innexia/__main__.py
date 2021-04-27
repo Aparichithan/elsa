@@ -74,7 +74,7 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-`Heya` 🤗 `I am` *INNEXIA* `your group super bot`
+`Heya` 🤗 `I am` *ΞＬＳΛ* `your group super bot`
 `I am very fast and  more efficient  I provide awesome  features which a owner will look for  filter ,warn system,note keeping system flood!`
 """
 
@@ -86,11 +86,11 @@ buttons = [
     [
         InlineKeyboardButton(text="About 📋", callback_data="innexiabot_"),
         InlineKeyboardButton(
-            text="Support 🛠️", url=f"https://t.me/{SUPPORT_CHAT}"
+            text="OWNER", url=f"https://t.me/stranger_of_telegram{SUPPORT_CHAT}"
         ),
     ],
     [
-        InlineKeyboardButton(text="Help & Commands ❔", callback_data="help_back"),
+        InlineKeyboardButton(text="Help ⚙️", callback_data="help_back"),
     ],
 ]
 
@@ -349,7 +349,7 @@ def innexiabot_about_callback(update, context):
     query = update.callback_query
     if query.data == "innexiabot_":
         query.message.edit_text(
-            text=""" ℹ️ I'm *INNEXIA*, a powerful group management bot built to help you manage your group easily.
+            text=""" ℹ️ I'm *ΞＬＳΛ*, a powerful group management bot built to help you manage your group easily.
                  \n❍ I can restrict users.
                  \n❍ I can greet users with customizable welcome messages and even set a group's rules.
                  \n❍ I have an advanced anti-flood system.
@@ -357,7 +357,7 @@ def innexiabot_about_callback(update, context):
                  \n❍ I have a note keeping system, blacklists, and even predetermined replies on certain keywords.
                  \n❍ I check for admins' permissions before executing any command and more stuffs
                  \n\n_innexiabot's licensed under the GNU General Public License v3.0_
-                 \nHere is the [💞Repository](https://github.com/TeamInnexia/innexiabot).
+                 \nHere is the [💞Repository](https://t.me/TG_STRANGE_R).
                  \n\nIf you have any question about innexiabot, let us know at .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -384,7 +384,7 @@ def Source_about_callback(update, context):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text=""" Hi..🤗 I'm *INNEXIA*
+            text=""" Hi..🤗 I'm *ΞＬＳΛ*
                  \nHere is the [Source Code](https://github.com/TeamInnexia/innexiabot) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
