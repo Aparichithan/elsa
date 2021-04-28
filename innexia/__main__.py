@@ -385,7 +385,7 @@ def Source_about_callback(update, context):
     if query.data == "source_":
         query.message.edit_text(
             text=""" Hi..🤗 I'm *ΞＬＳΛ*
-                 \nHere is the [Source Code](https://github.com/TeamInnexia/innexiabot) .""",
+                 \nHere is the [SONG BOT](https://t/me.Nora_song_bot) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
